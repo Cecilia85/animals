@@ -4,7 +4,9 @@ $(document).ready(function(){
     $("#turtles").show();
   } else if (animal === "snakes") {
     $("#snakes").show();
-  } else {
+  } else if (animal==="bees"){
     $("#bees").show();
+  } else{
+    alert("Please write turtles, snakes or bees");
   }
 });
